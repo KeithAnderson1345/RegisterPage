@@ -1,0 +1,111 @@
+nav{
+    background-color: white;
+    padding: 0px 3px 0px 3px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li button{
+    background-color: rgb(54, 126, 235);
+    color: white;
+    border-radius: 3px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(68, 171, 235);
+    
+    
+}
+
+#formContainer{
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px gray;
+    border-radius: 5px;
+    margin: auto;
+    box-sizing: border-box;
+    width: 325px;
+    height: 400px;
+    text-align: center;
+
+}
+
+#formAlign{
+    padding-top: 8%;
+    
+    
+}
+
+#signUp{
+    text-align: left;
+    padding-left: 30px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}
+
+#emptyDiv{
+    padding-top: 120px;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 5px 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+input[type=email]{
+    width: 80%;
+    padding: 5px 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+input[type=password]{
+    width: 80%;
+    padding: 5px 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+input[type=submit]{
+    width: 84%;
+    padding: 8px;
+    background-color: rgb(54, 126, 235);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+div form ul li{
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+    
+    
+}
+
+img{
+    border-radius: 50%;
+    border: 1px solid gray;
+    
+}
+
+#insta{
+    margin-right: 45px;
+}
